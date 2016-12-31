@@ -1,0 +1,15 @@
+.contain {
+  position: relative;
+  height: 50px;
+  width: 400px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.image {
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+}

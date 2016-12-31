@@ -1,0 +1,52 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 100%;  /* Set the font size 1em = 16px */
+    font-family: Helvetica, Arial, Sans-Serif;
+    position: relative;
+    height: 100vh;
+}
+
+/* Layout */
+
+.bckgrnd, .frgrnd{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: .7;
+}
+.frgrnd > div{
+    height: 50%;
+    width: 100%;
+}
+.bckgrnd > div{
+    margin: 0 0 0 15em;
+}
+
+/* Color */
+
+.bckgrnd{
+    background-color: #184345;
+    color: #450f18;
+    baseline-shift: top;
+    position: relative;
+    overflow: hidden;
+}
+.frgrnd{
+    background-color: #444345;
+}
+
+/* Text Test */
+
+.bckgrnd p{
+    width: 1em;
+    word-wrap: break-word;
+    display: inline-block;
+    vertical-align:top;
+}

@@ -1,0 +1,61 @@
+calc
+  init
+  
+  settings
+    settings
+  
+  build
+    DOM
+      boxDOM
+      menuDOM
+      inputDOM
+      padDOM
+      buttonDOM
+      
+    Style
+      menuStyle
+      boxStyle
+      padStyle
+      buttonStyle
+      displayStyle
+      
+    listeners
+      menuListen
+      inputListen
+      buttonListen
+      
+  functionality
+    add
+    subtract
+    divide
+    multiply
+    exponent
+    squareroot
+    memSave
+    memClear
+    memRecall
+    clear
+    equal
+    
+
+
+
+Method List
+
+
+determineInput
+
+acceptInput
+convertToText
+convertToNumber
+addToHistory
+pullHistory
+settings
+changeSettings
+saveToBrowser
+pullFromBrowser
+addListeners
+
+calcDOM
+
+

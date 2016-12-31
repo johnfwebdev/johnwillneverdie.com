@@ -1,0 +1,104 @@
+/* Main Stylesheet */
+
+/* Reset */
+*{
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none;
+}
+body{
+	font-size: 100%;  /* Set the font size 1em = ~16px */
+	font-family: Helvetica, Arial, Sans-Serif;
+	background-color: #3c3835;
+	background: url(../assets/backgrounds/dos.jpg) center center / cover fixed no-repeat;
+	
+	position: relative;
+	height: 100%;
+}
+.center{
+	margin: 0 auto;
+}
+.display{
+	display: block;
+}
+/* All Resolutions */
+.grid{
+	max-width: 1920px;
+}
+/* Navigation */
+.expanding_nav{
+	background-color: #1C1917;
+	position: fixed;
+	height: 100%;
+	width: 4em;
+	top: 0;
+	z-index: 9999;
+	transition: all 0.5s ease 0s;
+}
+.expanding_nav:hover{
+	width: 10em;
+	transition: all 0.5s ease 0s;
+}
+.nav{
+	list-style: none;
+	text-align: right;
+}
+.menu_icon{
+	height: 2.5em;
+	width: 2.5em;
+	display: block;
+}
+.menu_item{
+	width: 100%;
+	height: 3em;
+	padding-right: .75em;
+	display: block;
+	line-height: 3em;
+}
+.menu_item:hover{
+	border-right: #007FFF .25em solid;
+	padding-right: .5em;
+	background-color: #38322E;
+}
+.menu_item a, .menu_item a:visited{
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+	opacity: 0;
+	color: #007FFF;
+	padding-right: .75em;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+.expanding_nav:hover a{
+	opacity: 100;
+	transition: all 0.3s ease;
+	transition-delay: 0.3s;
+	-webkit-transition-delay: 0.3s;
+}
+
+/* Content */
+.main{
+	margin: 0 0 0 4em;
+	padding: 0 1em;
+}
+.row{
+	max-width: 95%;
+	margin: 1em auto 1em auto;
+	color: rgb(224, 224, 224);
+	font-weight: 200;
+	padding: 0 1em;
+	display: block;
+	line-height: 2;
+	background-color: rgba(139, 140, 139, 0.6);
+}
+.content{
+	padding-bottom: 1em;
+	height: 30px;
+}
+header span{
+	float: right;
+}
